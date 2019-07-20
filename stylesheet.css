@@ -7,9 +7,9 @@ main {
   width: auto;
 }
 .visual {
-  height: 700px;
+  height: 600px;
   width: auto;
-  background-image: url(https://raw.githubusercontent.com/sndweo/sndweo/master/yamanekosnipe.png);
+  background-image: url(https://raw.githubusercontent.com/sndweo/sndweo/master/backgroundyamanekoscope.png);
   background-size: cover;
 
   }
