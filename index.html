@@ -1,90 +1,52 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>推しキャラのPRページを作ってみた！<span>ここに白石入れたい</span></h1>
+    </header>
+    <main>
+      <!--　大きな尾形の画像を背景に、尾形百之助の文字を時間差で浮かび上がらせたい　-->
+      <div class="visual">
+        <p>”最推しできるキャラクター”</p>
+        <p class="top-name">尾形百之助</p>
+        <img src="https://github.com/sndweo/sndweo/blob/master/yamanekosnipe.png">
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
+
+      <!-- セクション達の上に「尾形の魅力の数々」のような見出しを表示できたらしたい-->
+      <div class="inner">
+        <p>尾形の魅力の数々</p>
+
+        <!-- デザイン・見た目について語りたい-->
+        <section>
+          <h2>顔がいいとか書く</h2>
+          <p>ここで語る</p>
+          <p><img>←はぎ合わせた画像1枚作ってここ貼る</p>
+        </section>
+
+        <!-- 能力について語りたい　射撃中の画像はりたい。好き-->
+        <section>
+          <h2>私のハートも射止めた射撃スキル</h2>
+          <p>ここで語る</p>
+          <p><img>←激濡れる座り射撃ポーズ画像ここ貼る</p>
+        </section>
+
+        <!-- 性格について語りたい　ん猫ちゃん！猫ちゃん！なとこ！！尊い・・・-->
+        <section>
+          <h2>ん猫ちゃん！猫ちゃん！</h2>
+          <p>ここで語る</p>
+          <p><img>←はぎ合わせた画像1枚作ってここ貼る</p>
+        </section>
+
+        <!-- 一番下に、ささやかにCV津田様のご尊顔と共に演技が素晴らしいことを語りたい-->
+        <h3>CV.津田健次郎</h3>
+        <p>尾形の魅力をどれだけ弾きだしてるかとくと語る</p>
+        <img>
       </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+    </main>
+    <footer></footer>
+  </body>
 </html>
