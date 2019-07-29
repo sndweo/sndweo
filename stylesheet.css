@@ -46,16 +46,16 @@ text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   height:800px;
 }
-
 .visual p {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
-.top-name {
+.visual h1 {
+  padding-top: 100px;
+  padding-bottom:
   font-size: 80px;
   weight:bold;
   border-bottom:5px solid white;
-
 }
 
 .inner {
