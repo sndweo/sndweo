@@ -1,18 +1,154 @@
-    
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+    font-family:"Noto Sans JP" ;
+    margin: 0;
+
+}
+
+
+header {
+  height:60px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  color:white;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+header h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 0px;
+  line-height: 60px;
+
+}
+
+
 .title {
-  color: #02ccba;
+color: #02ccba;
 }
 main {
-  height: auto;
-  width: auto;
+height: auto;
+width: auto;
 }
 .visual {
-  height: 600px;
-  width: auto;
-  background-image: url(https://raw.githubusercontent.com/sndweo/sndweo/master/backgroundyamanekoscope.png);
-  background-size: cover;
-  font-size: 20px;
-  corror: white;
-  
+height: 800px;
+width: auto;
+background-image: url(C:/Users/Owner/Pictures/ogataimagefile/usedforsite/russianforestimg.png);
+background-size: cover;
+font-size: 40px;
+color: white;
+text-align: center;
+}
+.visual-bg{
+  background-color: rgba(0, 0, 0, 0.3);
+  height:800px;
+}
 
-  }
+.visual p {
+  padding-top: 100px;
+}
+
+.top-name {
+  font-size: 80px;
+  weight:bold;
+  border-bottom:5px solid white;
+
+}
+
+.inner {
+  text-align: center;
+}
+
+.inner h2{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+}
+.charm-points{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.charm-point {
+  float: left;
+  width:25%;
+
+}
+
+.charm-point p{
+  display: inline-block;
+  width:100%;
+}
+
+.charm-btn{
+  display: block;
+  height:200px;
+  width:100%;
+  position:relative;
+
+}
+
+.charm-btn a{
+  display:block;
+  position: absolute;
+  top:0;
+  line-height: 200px;
+  width: 100%;
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+.charm-btn a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.charm-shows{
+  padding-top: 400px;
+
+}
+
+.charm-show{
+  display: block;
+  height: 310px;
+  margin-top:100px;
+  padding-top: 70px;
+  background-clip:content-box;
+  background-color: #f5f5f5;
+
+}
+
+.show-image-left{
+  display: inline-block;
+  float: left;
+
+}
+.show-image-right{
+  display: inline-block;
+  float:right;
+}
+
+.show-text {
+  display: inline-block;
+}
+.show-text-right{
+  padding-left: 100px;
+}
+.show-text-left{
+  text-align: left;
+  padding-left: 120px;
+}
+.show-text h3{
+  margin-top: 0px;
+  font-size: 30px;
+}
+
