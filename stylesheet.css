@@ -1,8 +1,12 @@
+
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+
+
 body {
-    font-family:"Noto Sans JP" ;
+    font-family:serif,"Noto Sans JP";
     margin: 0;
+    width:100%;
 
 }
 
@@ -15,6 +19,7 @@ header {
   position: fixed;
   top:0;
   z-index: 10;
+
 }
 
 header h1{
@@ -27,34 +32,35 @@ header h1{
 
 
 .title {
-color: #02ccba;
+  color: #02ccba;
 }
+
 main {
-height: auto;
-width: auto;
+  height: auto;
+  width: auto;
 }
 .visual {
-height: 800px;
-width: auto;
-background-image: url(https://raw.githubusercontent.com/sndweo/sndweo/master/usedforsite/russianforestimgresized.png);
-background-size: cover;
-font-size: 40px;
-color: white;
-text-align: center;
+  height: 800px;
+  width: auto;
+  background-image: url(C:/Users/Owner/Pictures/ogataimagefile/usedforsite/russianforestimg.png);
+  background-size: cover;
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
 .visual-bg{
   background-color: rgba(0, 0, 0, 0.3);
   height:800px;
 }
+
 .visual p {
   padding-top: 150px;
+  font-weight: bold;
 }
 
 .visual h1 {
   padding-top: 100px;
-  padding-bottom:
   font-size: 80px;
-  weight:bold;
   border-bottom:5px solid white;
 }
 
@@ -65,9 +71,9 @@ text-align: center;
 .inner h2{
   padding-top: 60px;
   padding-bottom: 60px;
-
-
+  text-shadow: 6px 6px 2px #b3b3b3;
 }
+
 .charm-points{
   width: 100%;
   margin: 0 auto;
@@ -89,7 +95,6 @@ text-align: center;
   height:200px;
   width:100%;
   position:relative;
-
 }
 
 .charm-btn a{
@@ -102,13 +107,12 @@ text-align: center;
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
-
 }
+
 
 .charm-btn a:hover{
   background-color: rgba(255, 255, 255, 0.5);
 }
-
 
 
 
@@ -152,3 +156,148 @@ text-align: center;
   font-size: 30px;
 }
 
+footer {
+  height:450px;
+  width:100%;
+}
+.page-top {
+  background-color: #f0f8ff;
+  height:60px;
+  width:100%;
+}
+.page-top  a{
+  display: block;
+  height:60px;
+  width:100%;
+  color:#366eb3;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: bold;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.page-top :hover{
+  background-color: rgba(0,0,0,0.3)
+}
+.page-top a:hover{
+  color:white;
+}
+
+.links{
+  height:400px;
+  background-color: #0a0a1a;
+  color:#7a7a99;
+
+}
+.links{
+  display: block;
+}
+.links a {
+  text-decoration:none;
+  color:#7a7a99;
+
+}
+.link-block{
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 600px;
+}
+
+.link{
+  display:block;
+  float:left;
+  padding-top: 50px;
+  width: 300px;
+}
+.link p {
+  font-size:20px;
+  font-weight: bold;
+
+}
+
+ul{
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  padding:5px 0 5px 0;
+}
+
+.info{
+  height: 150px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    to top, #000000, #000000 55px,
+    #66660a 55px, #66660a 60px,#000000 60px, #000000 65px,
+    #66660a 65px,#66660a 70px,#000000 70px, #000000 75px,
+    #66660a 75px, #66660a 80px,#000000 80px, #000000 150px);
+  color: #1a1a1a;
+}
+
+.info-separate{
+  float: left;
+  width:50%;
+}
+
+.info-left{
+  display:block;
+  float: left;
+  height: 90px;
+  padding-top: 30px;
+  width: auto;
+}
+
+.footer-logo img{
+  max-height: 90px;
+  padding-left: 20px;
+  width: auto;
+}
+
+.info-right{
+  height: 130px;
+  width: 400px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.about-me{
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 130px;
+}
+.page{
+  display: inline-block;
+  font-size: 17px;
+}
+
+.about-me p{
+  font-size: 13px;
+}
+
+.skecth-link  {
+}
+
+.skecth-link p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.skecth-link a{
+  color: #1a1a1a;
+  font-size: 13px;
+}
+
+.copy{
+  height:60px;
+  font-size: 15px;
+  color: #655c99;
+  background-color: #0a0a1a;
+}
+.copy p{
+  margin: 0;
+}
