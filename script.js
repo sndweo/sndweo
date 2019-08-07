@@ -1,5 +1,5 @@
 $(function() {
 
-$('#name').fadeIn();
+$('#name').fadeIn(500);
 
 });
