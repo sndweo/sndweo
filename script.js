@@ -1,5 +1,3 @@
-$(function() {
-
-$('#name').fadeIn();
-
+$(function(){ 
+   $('#name').css('color','blue');
 });
