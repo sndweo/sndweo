@@ -16,6 +16,7 @@ header {
   width: 100%;
   background-color: rgba(10, 10, 26, 0.9);
   color:white;
+  opacity: 0.8;
   position: fixed;
   top:0;
   z-index: 10;
@@ -23,11 +24,37 @@ header {
 }
 
 header h1{
+  display: block;
+  float: left;
   font-weight: normal;
   font-size: 20px;
   margin-top: 0px;
   line-height: 60px;
+  padding-left:10px;
+}
 
+.header-menus{
+  display: block;
+  float: right;
+  height: 60px;
+}
+.header-menus ul{
+  margin:0;
+}
+.header-menus li{
+  float: left;
+  padding:0 20px;
+  line-height: 60px;
+  font-size: 23px;
+}
+.header-menus a{
+  color:white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.header-menus a:hover{
+  border-bottom: 2px solid white;
+  opacity: 1;
 }
 
 
@@ -49,35 +76,80 @@ main {
   text-align: center;
 }
 .visual-bg{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   height:800px;
 }
 
 .visual p {
   padding-top: 150px;
   font-weight: bold;
+  display:none;
 }
 
-.visual h1 {
+.name {
+  display:none;
   padding-top: 100px;
   font-size: 80px;
-  border-bottom:5px solid white;
-  
+  border-bottom:4px solid white;
 }
+
+.name rt{
+  font-size: 27px;
+}
+
+.about-ogata{
+    padding-top:100px;
+}
+
+.about-ogata rt{
+  font-size: 10px;
+}
+
+.about-golden-kamuy{
+  height: auto;
+  text-align: center;
+}
+.about-golden-kamuy h2{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.about-golden-kamuy p {
+height: auto;
+font-size: 15px;
+}
+
+.about-golden-kamuy span{
+  font-weight: bold;
+  color:red;
+}
+
+.about-golden-kamuy img{
+  display: block;
+}
+
+.img-right{
+  float:right;
+
+}
+
 
 .inner {
   text-align: center;
 }
 
-.inner h2{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  text-shadow: 6px 6px 2px #b3b3b3;
+.inner h3{
+  padding-top: 200px;
+  padding-bottom: 20px;
+  font-size: 25px;
 }
 
 .charm-points{
   width: 100%;
   margin: 0 auto;
+  height: 400px;
+  padding-top:200px;
+  padding-bottom:200px;
 }
 
 .charm-point {
@@ -92,69 +164,113 @@ main {
 }
 
 .charm-btn{
-  display: block;
+  display: inline-block;
   height:200px;
-  width:100%;
+  width:200px;
   position:relative;
 }
 
 .charm-btn a{
-  display:block;
+  display:inline-block;
   position: absolute;
   top:0;
+  left:0;
   line-height: 200px;
-  width: 100%;
+  width: 200px;
   color:white;
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
+  background-size: cover;
 }
 
 
 .charm-btn a:hover{
   background-color: rgba(255, 255, 255, 0.5);
 }
+.charm-btn a:active{
+  background-image: url("C:/Users/Owner/Pictures/ogataimagefile/usedforsite/silhouette4footstamp.png");
+}
 
 
+  background-image: url("C:/Users/Owner/Pictures/ogataimagefile/usedforsite/silhouette2footstamp.png");
 
-.charm-shows{
-  padding-top: 400px;
-
+.clear{
+  clear: left;
 }
 
 .charm-show{
   display: block;
-  height: 310px;
   margin-top:100px;
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 150px;
   background-clip:content-box;
   background-color: #f5f5f5;
 
 }
 
+.charm-show img{
+  display:block;
+  padding: 50px 10px 0 10px;
+
+}
+
 .show-image-left{
-  display: inline-block;
   float: left;
+  padding-right: 70px;
 
 }
 .show-image-right{
-  display: inline-block;
   float:right;
 }
 
 .show-text {
   display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 17px;
+
 }
 .show-text-right{
-  padding-left: 100px;
+  width: 800px;
+  padding-left: 150px;
+  margin-right: 0 auto;
 }
 .show-text-left{
   text-align: left;
-  padding-left: 120px;
+  padding-left: 60px;
+  width:850px;
+  margin-left:0 auto;
 }
 .show-text h3{
   margin-top: 0px;
   font-size: 30px;
+  border-bottom: double 5px black;
+}
+
+.about-cv-actor{
+  height: 700px;
+  padding-left: 10px ;
+  position:relative;
+}
+.cv-icon{
+  display: block;
+  position: absolute;
+  top:199px;
+  left:15px;
+}
+
+.about-cv-actor-text{
+  padding:200px 0 100px 100px;
+  height: 400px;
+}
+.about-cv-actor-text h4{
+  border-bottom: solid 1px black;
+}
+.thank-text{
+  text-align: center;
+  padding-bottom: 90px;
+  font-size: 20px;
 }
 
 footer {
@@ -190,11 +306,11 @@ footer {
   height:400px;
   background-color: #0a0a1a;
   color:#7a7a99;
+  display: block;
+  text-align: center;
 
 }
-.links{
-  display: block;
-}
+
 .links a {
   text-decoration:none;
   color:#7a7a99;
@@ -233,9 +349,9 @@ li {
   width: 100%;
   background: repeating-linear-gradient(
     to top, #000000, #000000 55px,
-    #66660a 55px, #66660a 60px,#000000 60px, #000000 65px,
-    #66660a 65px,#66660a 70px,#000000 70px, #000000 75px,
-    #66660a 75px, #66660a 80px,#000000 80px, #000000 150px);
+    #4d4d00 55px, #4d4d00 60px,#000000 60px, #000000 65px,
+    #4d4d00 65px,#4d4d00 70px,#000000 70px, #000000 75px,
+    #4d4d00 75px, #4d4d00 80px,#000000 80px, #000000 150px);
   color: #1a1a1a;
 }
 
@@ -243,6 +359,8 @@ li {
   float: left;
   width:50%;
 }
+
+/*info の左側*/
 
 .info-left{
   display:block;
@@ -258,40 +376,62 @@ li {
   width: auto;
 }
 
-.info-right{
+/*infoの右側*/
+
+.separate-right{
+  position:relative;
+}
+.about-me{
+  display: block;
+  margin-left: auto;
   height: 130px;
-  width: 400px;
-  padding-top: 20px;
+  width: 230px;
+  padding-top: 35px;
   position: relative;
 }
 
-.about-me{
-  position: absolute;
-  display: inline-block;
-  width: 300px;
-  height: 130px;
+.name-center{
+  display: block;
+  height: 115px;
+  width: 90px;
+  margin-right: auto;
 }
+
+.name-center p{
+  font-size: 13px;
+}
+
 .page{
   display: inline-block;
   font-size: 17px;
 }
 
-.about-me p{
-  font-size: 13px;
+.pic-right{
+  position: absolute;
+  top: 35px;
+  left: 140px;
+  display: block;
+  float: right;
+  height: 115px;
+  width: 90px;
+  margin: 0;
 }
 
-.skecth-link  {
-}
-
-.skecth-link p {
+.pic-right p {
   font-size: 13px;
   font-weight: bold;
+  padding-bottom: 12px;
+
 }
 
-.skecth-link a{
+.pic-right a{
   color: #1a1a1a;
   font-size: 13px;
+  margin-top: 13px;
 }
+
+
+
 
 .copy{
   height:60px;
