@@ -69,7 +69,7 @@ main {
 .visual {
   height: 800px;
   width: auto;
-  background-image: url();
+  background-image: url("https://raw.githubusercontent.com/sndweo/sndweo/master/usedforsite/russianforestimgresized.png");
   background-size: cover;
   font-size: 40px;
   color: white;
