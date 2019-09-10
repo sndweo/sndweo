@@ -189,11 +189,8 @@ font-size: 15px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .charm-btn a:active{
-  background-image: url("");
+  background-image: url("https://raw.githubusercontent.com/sndweo/sndweo/master/usedforsite/silhouette4footstamp.png");
 }
-
-
-  background-image: url("");
 
 .clear{
   clear: left;
