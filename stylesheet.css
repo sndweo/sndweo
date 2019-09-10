@@ -69,7 +69,7 @@ main {
 .visual {
   height: 800px;
   width: auto;
-  background-image: url(C:/Users/Owner/Pictures/ogataimagefile/usedforsite/russianforestimg.png);
+  background-image: url();
   background-size: cover;
   font-size: 40px;
   color: white;
@@ -189,11 +189,11 @@ font-size: 15px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .charm-btn a:active{
-  background-image: url("C:/Users/Owner/Pictures/ogataimagefile/usedforsite/silhouette4footstamp.png");
+  background-image: url("");
 }
 
 
-  background-image: url("C:/Users/Owner/Pictures/ogataimagefile/usedforsite/silhouette2footstamp.png");
+  background-image: url("");
 
 .clear{
   clear: left;
