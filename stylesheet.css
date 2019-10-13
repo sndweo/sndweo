@@ -84,6 +84,7 @@ main {
   padding-top: 150px;
   font-weight: bold;
   display:none;
+  margin-top:0;
 }
 
 .name {
